@@ -4,7 +4,7 @@ uvicorn==0.40.0
 python-multipart==0.0.21
 pdfplumber==0.11.9
 python-dotenv==1.2.1
-google-generativeai==0.8.6
+google-genai==1.58.0
 
 # OPCIONAL: Descomente se quiser usar Transformers local (5GB+)
 # transformers==4.57.5
