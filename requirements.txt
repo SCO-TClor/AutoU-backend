@@ -1,0 +1,11 @@
+# Dependências essenciais para o projeto
+fastapi==0.128.0
+uvicorn==0.40.0
+python-multipart==0.0.21
+pdfplumber==0.11.9
+python-dotenv==1.2.1
+google-generativeai==0.8.6
+
+# OPCIONAL: Descomente se quiser usar Transformers local (5GB+)
+# transformers==4.57.5
+# torch==2.9.1
