@@ -1,7 +1,7 @@
 from fastapi import UploadFile
 
-from backend.utils.pdfProcess import pdfProcesser
-from backend.utils.txtProcess import textProcesser
+from utils.pdfProcess import pdfProcesser
+from utils.txtProcess import textProcesser
 
 async def routerPy(
         text: str | None,

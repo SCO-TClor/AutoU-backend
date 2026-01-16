@@ -3,8 +3,8 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 # Modularização:
-from backend.router import routerPy
-from backend.services.ReaderAI import AI_reader
+from router import routerPy
+from services.ReaderAI import AI_reader
 
 # Autorização:
 import os
